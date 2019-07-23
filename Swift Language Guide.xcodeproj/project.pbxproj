@@ -24,6 +24,8 @@
 		A4F0B6E622E6DDAC00994B1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4F0B6E922E6DDAC00994B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4F0B6EB22E6DDAC00994B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F0B6F122E6DDCD00994B1B /* Template.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Template.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A4F0B6F222E6DE2700994B1B /* The Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "The Basics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,8 @@
 		A4F0B6D122E6DDAB00994B1B = {
 			isa = PBXGroup;
 			children = (
+				A4F0B6F222E6DE2700994B1B /* The Basics.playground */,
+				A4F0B6F122E6DDCD00994B1B /* Template.playground */,
 				A4F0B6DC22E6DDAB00994B1B /* Swift Language Guide */,
 				A4F0B6DB22E6DDAB00994B1B /* Products */,
 			);
