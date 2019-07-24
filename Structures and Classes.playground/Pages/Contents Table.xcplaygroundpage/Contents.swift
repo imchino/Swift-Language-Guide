@@ -1,5 +1,5 @@
 /*:
- # Title
+ # Structures and Classes
  */
 /*:
  ### Contents
