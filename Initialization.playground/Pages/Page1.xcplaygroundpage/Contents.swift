@@ -451,9 +451,25 @@
  ## Class Inheritance and Initialization
  クラスの継承と初期化
 
- クラスがそのスーパークラスから継承するすべてのプロパティを含む、クラスに格納されているすべてのプロパティには、初期化時に初期値を割り当てる必要があります。
+ クラスに格納されているすべてのプロパティには、初期化時に初期値を割り当てる必要があります。
+ これには、そのスーパークラスから継承するプロパティを含みます。
 
- Swiftはすべての保存されたプロパティが初期値を受け取ることを確実にするためにクラス型のために2種類の初期化子を定義します。 これらは指定イニシャライザと便利イニシャライザとして知られています。
+ Swiftはすべてのストアドプロパティが初期値を確実に受け取るために、クラス型に2種類の初期化子を定義します。
+ 指定イニシャライザと簡易イニシャライザです。
+ */
+/*:
+ ### Designated Initializers and Convenience Initializers
+ 
+ Designated initializers are the primary initializers for a class. A designated initializer fully initializes all properties introduced by that class and calls an appropriate superclass initializer to continue the initialization process up the superclass chain.
 
+ Classes tend to have very few designated initializers, and it is quite common for a class to have only one. Designated initializers are “funnel” points through which initialization takes place, and through which the initialization process continues up the superclass chain.
+
+ Every class must have at least one designated initializer. In some cases, this requirement is satisfied by inheriting one or more designated initializers from a superclass, as described in Automatic Initializer Inheritance below.
+
+ Convenience initializers are secondary, supporting initializers for a class. You can define a convenience initializer to call a designated initializer from the same class as the convenience initializer with some of the designated initializer’s parameters set to default values. You can also define a convenience initializer to create an instance of that class for a specific use case or input value type.
+
+ You do not have to provide convenience initializers if your class does not require them. Create convenience initializers whenever a shortcut to a common initialization pattern will save time or make initialization of the class clearer in intent.
+ */
+/*:
  */
 //: [Next](@next)
