@@ -18,6 +18,7 @@
 /* Begin PBXFileReference section */
 		A43F047522E764B400DD6C7A /* Structures and Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Structures and Classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A43F047622E7658E00DD6C7A /* Initialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Initialization.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A4D02B9C22E80D1300A413BA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../../System/Volumes/Data/Users/chino/Desktop/Swift_Language_Guide/README.md; sourceTree = "<group>"; };
 		A4F0B6DA22E6DDAB00994B1B /* Swift Language Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Language Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F0B6DD22E6DDAB00994B1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4F0B6DF22E6DDAB00994B1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +45,7 @@
 		A4F0B6D122E6DDAB00994B1B = {
 			isa = PBXGroup;
 			children = (
+				A4D02B9C22E80D1300A413BA /* README.md */,
 				A4F0B6F222E6DE2700994B1B /* The Basics.playground */,
 				A43F047522E764B400DD6C7A /* Structures and Classes.playground */,
 				A43F047622E7658E00DD6C7A /* Initialization.playground */,
