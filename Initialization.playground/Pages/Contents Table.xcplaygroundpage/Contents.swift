@@ -1,5 +1,6 @@
 /*:
  # Initialization
+ https://docs.swift.org/swift-book/LanguageGuide/Initialization.html
  */
 /*:
  ### Contents
