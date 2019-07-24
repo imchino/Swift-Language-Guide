@@ -408,6 +408,7 @@
     }
  }
  ````
+ 
  最初の初期化子init()は、カスタム初期化子がなければ、受け取るはずだったデフォルト初期化子と機能的には同じです。
  この初期化子には、空のボディ{}があります。
  このイニシャライザを呼び出すと...
@@ -420,8 +421,31 @@
  // basicRect's origin is (0.0, 0.0) and its size is (0.0, 0.0)
  ````
  
- 2番目の初期化子init(origin: size :)は、カスタム初期化子がなければ構造体が受け取るであろうメンバワイズ初期化子と機能的に同じです。
- この初期化子は単にoriginとsize引数の値を適切なストアドプロパティに代入します。
+ 2番目の初期化子init(origin:size:)は、カスタム初期化子がなければ、受け取ったであろうメンバワイズ初期化子と機能的に同じです。
+ この初期化子は、単にoriginとsize引数の値を適切なストアドプロパティに代入します。
+ 
+ ````
+ let originRect = Rect(origin: Point(x: 2.0, y: 2.0),
+                       size:   Size(width: 5.0, height: 5.0))
+ // originRect's origin is (2.0, 2.0) and its size is (5.0, 5.0)
+ ````
+ 
+ 3番目のイニシャライザinit(center:size:)は、もう少し複雑です。
+ まず、centerとsize値に基づいて、適切なoriginの計算から始めます。
+ 次に、init(origin:size:)イニシャライザを呼び出し（デリゲート）、新しいoriginとsizeをプロパティに格納します。
+ 
+ ````
+ let centerRect = Rect(center: Point(x: 4.0, y: 4.0),
+                       size:   Size(width: 3.0, height: 3.0))
+ // centerRect's origin is (2.5, 2.5) and its size is (3.0, 3.0)
+ ````
+ 
+ init(center:size:)イニシャライザは、適切なプロパティに新しいoriginとsizeの値を割り当てる可能性があります。
+ いずれにせよ、init(center:size:)イニシャライザでは、「同じ機能を持つ既存のイニシャライザ」を活用した方が便利かつ意図が明確です。
+ 
+ ### NOTE
+ init()とinit(origin:size:)初期化子を自分で定義せずに、この例と同じプログラムを書く方法があります。
+ 詳しくはエクステンションを見てください。
  */
 
 
