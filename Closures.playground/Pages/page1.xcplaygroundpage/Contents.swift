@@ -1,6 +1,7 @@
 //: [Previous](@previous)
 /*:
  # Closures
+ [`Closures`](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)\
  クロージャーは自己完結型の機能ブロックであり、関数をコードに渡して使用できます。
  Swiftのクロージャーは、CおよびObjective-Cのブロック、および他のプログラミング言語のラムダに似ています。
 

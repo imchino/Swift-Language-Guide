@@ -19,6 +19,7 @@
 		A4319B3322EAECFA004C6F38 /* Access Control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Access Control.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A43F047522E764B400DD6C7A /* Structures and Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Structures and Classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A43F047622E7658E00DD6C7A /* Initialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Initialization.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A480D55D2303D09800FA6F27 /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A485558623026FD300FE6E49 /* Closures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A4F0B6DA22E6DDAB00994B1B /* Swift Language Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Language Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F0B6DD22E6DDAB00994B1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,8 +47,9 @@
 		A4F0B6D122E6DDAB00994B1B = {
 			isa = PBXGroup;
 			children = (
-				A485558623026FD300FE6E49 /* Closures.playground */,
 				A4F0B6F222E6DE2700994B1B /* The Basics.playground */,
+				A480D55D2303D09800FA6F27 /* Functions.playground */,
+				A485558623026FD300FE6E49 /* Closures.playground */,
 				A43F047522E764B400DD6C7A /* Structures and Classes.playground */,
 				A43F047622E7658E00DD6C7A /* Initialization.playground */,
 				A4319B3322EAECFA004C6F38 /* Access Control.playground */,
